@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 9000
 
 eureka:
   instance:
@@ -24,3 +24,4 @@ spring:
     hibernate:
       ddl-auto: none
     show-sql: true
+
