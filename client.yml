@@ -36,5 +36,5 @@ spring:
           starttls:
             enable: true
 
-  application:
-    secretKey: "53b99f024871ba698a4e3cc04d5225860a62cd7ca5c2919e38e0532d008362aa"
+application:
+  secretKey: "53b99f024871ba698a4e3cc04d5225860a62cd7ca5c2919e38e0532d008362aa"
