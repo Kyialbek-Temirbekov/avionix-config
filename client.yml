@@ -27,8 +27,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: 28112002akn@gmail.com
-    password: "fmno qacd biha njja" 
+    username: "{cipher}0ee65b9756b39abbeb80f89122575702a4b456601fb02533f743834e4130d5ab3b4afa70ceb53ae139e3447c21c340bb"
+    password: "{cipher}5c63bd3eafcfca6c63830de483fdb3ad0f7ed7f410c683d454bda39f13f9694979a778d8f640a052c7f7a54b84d94c80" 
     properties:
       mail:
         smtp:
@@ -37,4 +37,4 @@ spring:
             enable: true
 
 application:
-  secretKey: "53b99f024871ba698a4e3cc04d5225860a62cd7ca5c2919e38e0532d008362aa"
+  secretKey: "{cipher}891b95720fcaccc91ae9d555f843b69b6847f41ed73a561755f1faf709ed2f32d269711212c620cccc11ec100e46818a4ce82a9e90b179677d529d995d41bf233d9af8b4885901f8d563d9352072ff53a742a6e6a8c1ee3d083ad6afa5d55ef2"
