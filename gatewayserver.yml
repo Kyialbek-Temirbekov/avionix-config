@@ -16,3 +16,9 @@ spring:
       httpclient:
         connect-timeout: 1000
         response-timeout: 5s
+
+
+application:
+  jwt:
+    key: "{cipher}c49216fe1f0adeb876563002101ea3b214a4397023ea46d328d2d4e71055a6c32afa0ce721ae71d790c33db675d05184adec43075d1b6a35b54fdcd37c70216d"
+    
