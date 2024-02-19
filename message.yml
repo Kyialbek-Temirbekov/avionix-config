@@ -1,2 +1,15 @@
 server:
   port: 9010
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "{cipher}0ee65b9756b39abbeb80f89122575702a4b456601fb02533f743834e4130d5ab3b4afa70ceb53ae139e3447c21c340bb"
+    password: "{cipher}5c63bd3eafcfca6c63830de483fdb3ad0f7ed7f410c683d454bda39f13f9694979a778d8f640a052c7f7a54b84d94c80" 
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
