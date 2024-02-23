@@ -16,6 +16,10 @@ spring:
       httpclient:
         connect-timeout: 1000
         response-timeout: 5s
+      globalcors:
+        cors-configurations['[*]']:
+          allowed-methods: *
+
 
 
 application:
