@@ -18,6 +18,7 @@ spring:
         response-timeout: 5s
       globalcors:
         cors-configurations['[*]']:
+          allowed-origins: *
           allowed-methods: *
 
 
