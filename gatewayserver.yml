@@ -16,6 +16,12 @@ spring:
       httpclient:
         connect-timeout: 1000
         response-timeout: 5s
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:3000"
+            allowedHeaders: "*"
+            allowedMethods: "*"
 
 application:
   jwt:
