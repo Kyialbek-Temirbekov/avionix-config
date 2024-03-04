@@ -29,4 +29,8 @@ application:
   secretKey: "{cipher}891b95720fcaccc91ae9d555f843b69b6847f41ed73a561755f1faf709ed2f32d269711212c620cccc11ec100e46818a4ce82a9e90b179677d529d995d41bf233d9af8b4885901f8d563d9352072ff53a742a6e6a8c1ee3d083ad6afa5d55ef2"
   jwt:
     key: "{cipher}c49216fe1f0adeb876563002101ea3b214a4397023ea46d328d2d4e71055a6c32afa0ce721ae71d790c33db675d05184adec43075d1b6a35b54fdcd37c70216d"
-    
+  amadeus:
+    apis:
+      accessToken: "https://test.api.amadeus.com/v1/security/oauth2/token"
+      flightOffersSearch: "https://test.api.amadeus.com/v2/shopping/flight-offers"
+      airportSearch: "https://test.api.amadeus.com/v1/reference-data/locations"
