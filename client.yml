@@ -34,3 +34,6 @@ application:
       accessToken: "https://test.api.amadeus.com/v1/security/oauth2/token"
       flightOffersSearch: "https://test.api.amadeus.com/v2/shopping/flight-offers"
       airportSearch: "https://test.api.amadeus.com/v1/reference-data/locations"
+    client:
+      key: "{cipher}84a016aa248a77e043129e97861a0db7002d08475b26a598e0ea8099fba6f390c5cb486427e3432cd8058878e6d63cf7e029cd987165d30c663976d554a02a2e"
+      secret: "{cipher}d3397de94a8f7bedb7ab475eaa62104c068b8a2df882db3b1117da6416dd0666cbfd73dcffc73c91e406efeac290e278"
